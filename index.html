@@ -67,66 +67,154 @@
                 <span class="title2">TECNO</span>
             </i>
         </a>
-        <label for="icone">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <input id="icone" type="checkbox">
-
-        <div class="div-father">
-
-            <div class="sub-div">
-
-                <label for="link-div">
-
-                    <i class="fa-solid fa-house"> <span class="sub-span">Home</span></i>
-
-                </label>
-                <input id="link-div" type="checkbox">
-
-                <ul class="sub-Home">
-                    <li><a class="sub-link-div" href="#"> page1 </a></li>
-                    <li><a class="sub-link-div" href="#"> page2 </a></li>
-                    <li><a class="sub-link-div" href="#"> page3 </a></li>
-                </ul>
-
-            </div>
-
-            <div class="sub-div2">
-
-                <label for="link-div1">
-
-                    <i class="fa-solid fa-headset"><span class="sub-span2"> content</span></i>
-
-                </label>
-                <input id="link-div1" type="checkbox">
-
-                <ul class="content">
-
-                    <li><a class="sub-link-div" href="#"> page1 </a></li>
-                    <li><a class="sub-link-div" href="#"> page2 </a></li>
-                    <li><a class="sub-link-div" href="#"> page3 </a></li>
-                </ul>
-
-            </div>
-
-            <div class="sub-div3">
-                <label for="link-div2">
-
-                    <i class="fa-solid fa-user"> <span class="sub-span3"> Login</span></i>
-
-                </label>
-                <input id="link-div2" type="checkbox">
-
-                <ul class="login">
-                    <li><a class="sub-link-div3" href="#"> Sign in
-                            <i class="fa-solid fa-right-to-bracket"></i>
-                        </a></li>
-
-                </ul>
-
-            </div>
         </div>
 
+
+
+
+
+
+
+
+        <style>
+            .topnav #myLinks {
+                display: none;
+
+            }
+
+
+            .topnav {
+
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                display: flex;
+
+            }
+
+            .topnav a.icon {
+                background: black;
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+
+            .active {
+                background-color: #04AA6D;
+                color: white;
+            }
+        </style>
+
+        </head>
+
+        <body>
+            <div class="con">
+                <div class="topnav">
+
+                    <div id="myLinks">
+
+                        <label for="link-div3" aria-valuemax="1">
+<span class="he">
+                            <i class="fa-solid fa-house"> <span class="sub-spa">Home</span></i>
+                        </span>
+                        </label>
+                        <input id="link-div3" type="checkbox">
+
+                        <ul class="sub-me">
+                            <li><a class="sub-link-div" href="#"> page1 </a></li>
+                            <li><a class="sub-link-div" href="#"> page2 </a></li>
+                            <li><a class="sub-link-div" href="#"> page3 </a></li>
+                        </ul>
+
+
+
+
+
+                        <label for="link-div2">
+                            <span class="content">
+                                <i class="fa-solid fa-headset"><span class="sub-span2"> content</span></i>
+                            </span>
+                        </label>
+                        <input id="link-div2" type="checkbox">
+
+                        <ul class="sub-me2">
+
+                            <li><a class="sub-link-div" href="#"> page1 </a></li>
+                            <li><a class="sub-link-div" href="#"> page2 </a></li>
+                            <li><a class="sub-link-div" href="#"> page3 </a></li>
+                        </ul>
+
+
+
+
+
+                        <label for="link-div1">
+                            <span class="Login">
+                                <i class="fa-solid fa-user"> <span class="sub-span3"> Login</span></i>
+                            </span>
+                        </label>
+                        <input id="link-div1" type="checkbox">
+
+                        <ul class="sub-me3">
+                            <li><a class="sub-link-di" href="#"> Sign in
+                                    <i class="fa-solid fa-right-to-bracket"></i>
+                                </a></li>
+
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
+
+
+
+
+
+
+
+            <div d="myLinks">
+
+
+                <div class="sub-father1">
+                    <div class="sub-div1">
+
+
+
+                    </div>
+
+                    <div class="sub-div2">
+
+
+
+                    </div>
+
+                    <div class="sub-div3">
+
+                    </div>
+                </div>
+            </div>
+            </div>
     </header>
 
 
