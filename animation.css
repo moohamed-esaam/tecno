@@ -1,0 +1,133 @@
+@keyframes drob {
+    0% {
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+header {
+    animation: drob 1.3s 1;
+}
+
+
+
+.fa-gamepad {
+    animation: down 2s 1;
+}
+
+@keyframes down {
+    0% {
+        transform: translatey(-30px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+
+
+
+
+.sub-ul {
+    animation: sub-ul 1.5s 1;
+}
+
+@keyframes sub-ul {
+    0% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+.sub-ul2 {
+    animation: sub-ul2 1.5s 1;
+}
+
+@keyframes sub-ul2 {
+    0% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+.sub-ul3{
+    animation: sub-ul3 1.5s 1;
+}
+
+@keyframes sub-ul3{
+    0%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+.div-father{
+    animation: father 1.5s 1;
+}
+
+@keyframes father{
+    0%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.sub-Home {
+   animation: sub-home 1.5s 1;
+}
+@keyframes sub-home{
+    0%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+.content {
+    animation: content  1.5s 1;
+ }
+ @keyframes content {
+     0%{
+         transform: translateY(-30px);
+     }
+     100%{
+         transform: translateY(0px);
+     }
+ }
+
+
+ .login {
+    animation: login  1.5s 1;
+ }
+ @keyframes login {
+     0%{
+         transform: translateY(-30px);
+     }
+     100%{
+         transform: translateY(0px);
+     }
+ }

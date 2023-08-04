@@ -1,0 +1,28 @@
+@media (max-width: 700px) {
+    .mobile-screen-hide {
+
+        display: none
+    }
+
+
+
+    .mobile-screen-show {
+        display: block;
+
+    }
+
+}
+
+@media (min-width: 701px) {
+    .mobile-screen-hide {
+
+        display: block
+    }
+
+
+
+    .mobile-screen-show {
+        display: none
+    }
+
+}
