@@ -282,7 +282,7 @@ h2 {
 
 .content {
     position: absolute;
-    right: 200px;
+    right: 100px;
     top: 75px;
     transition: .8s;
 }
